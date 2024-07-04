@@ -104,7 +104,8 @@
 
     .heroImg{
         padding-bottom: 20px;
-        width: 70%;
+        width: 60%; 
+        margin-left: 0;
     }
 
     .container {
