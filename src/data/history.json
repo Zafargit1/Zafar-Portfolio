@@ -1,25 +1,25 @@
 [
     {
-      "role": "Software Engineer",
+      "role": "Front-end Intern",
       "organisation": "Google",
-      "startDate": "Sept, 2022",
-      "endDate": "Present",
+      "startDate": "Aug, 2024",
+      "endDate": "Nov, 2024",
       "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
       "imageSrc": "history/google.png"
     },
     {
-      "role": "UI Designer",
+      "role": "UI Designer Intern",
       "organisation": "Mirosoft",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
+      "startDate": "Dec, 2024",
+      "endDate": "March, 2025",
+      "experiences": ["Worked on Windows 11", "Designed softwares"],
       "imageSrc": "history/microsoft.png"
     },
     {
       "role": "SWE Intern",
       "organisation": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
+      "startDate": "Apr, 2023",
+      "endDate": "Jun, 2023",
       "experiences": [
         "Worked on component library",
         "Helped create UI components"

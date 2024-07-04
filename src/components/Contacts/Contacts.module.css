@@ -8,14 +8,18 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
-  padding: 50px 50px 6% 8%;
+  padding: 50px 50px 8% 0%;
   gap: 20px;
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   letter-spacing: 4px;
+}
+
+.text{
+  text-align: start;
 }
 
 .text p {
@@ -44,12 +48,14 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 850px) {
   .container {
     flex-direction: column;
     gap: 23px;
+    padding: 50px 50px 8% 8%;
   }
 
   .text {
@@ -61,4 +67,10 @@
   .links {
     align-items: center;
   }
+
+  .link {
+    gap: 12px;
+  }
+
+  
 }
