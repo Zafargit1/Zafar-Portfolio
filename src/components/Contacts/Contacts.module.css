@@ -56,6 +56,7 @@
     flex-direction: column;
     gap: 23px;
     padding: 50px 50px 8% 8%;
+    padding-left: 10PX;
   }
 
   .text {
@@ -64,13 +65,24 @@
     align-items: center;
   }
 
+  .text h2{
+    font-size: 60px;
+  }
+
   .links {
-    align-items: center;
+    /* align-items: center; */
+    
   }
 
   .link {
-    gap: 12px;
+    gap: 3px;
   }
 
-  
+  .link a{
+    font-size: 25px;
+  }
+
+  .link img{
+    width: 40px;
+  }
 }
