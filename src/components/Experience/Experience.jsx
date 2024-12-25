@@ -8,7 +8,7 @@ import history from "../../data/history.json";
 export const Experience = () => {
     return (
         <section className={styles.container} id="experience">
-            <h2 className={styles.title}>Experience</h2>
+            <h2 className={styles.title}>Skills</h2>
 
             <div className={styles.content}>
 
@@ -27,19 +27,19 @@ export const Experience = () => {
                     }
                 </div>
 
-                {/* History of Experiences */}
+                {/* History of Experiences 
                 <ul className={styles.history}>
                     {
                         history.map((historyItem, id) => {
                             return (
                                 <li key={id} className={styles.historyItem}>
-                                    {/* Image of the Company */}
+                                    * Image of the Company *
                                     <img 
                                         src={getImageUrl(historyItem.imageSrc)} 
                                         alt={`${historyItem.organization} Logo`} 
                                     />
 
-                                    {/* Position, Company Name, Period of work, work description*/}
+                                    *Position, Company Name, Period of work, work description*
                                     <div className={styles.historyItemDetails}>
                                         <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                                         <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
@@ -53,7 +53,7 @@ export const Experience = () => {
                             )
                         })
                     }
-                </ul>
+                </ul>*/}
 
             </div>
         </section>

@@ -1,14 +1,6 @@
 [
     {
-      "title": "My Presonal Blog",
-      "imageSrc": "projects/project1.png",
-      "description": "My own blog project, where I talk about news in politics, science, technologies, travel and much more!",
-      "skills": ["JavaScript", "SCSS", "React", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Online store",
+      "title": "E-commerce website",
       "imageSrc": "projects/project.png",
       "description": "This is my online store project, it is currently in development.",
       "skills": ["React", "Redux", "Node", "Sass"],
@@ -16,10 +8,18 @@
       "source": "https://www.github.com"
     },
     {
-      "title": "Software Development",
+      "title": "Chat application",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "My Presonal Blog",
+      "imageSrc": "projects/project1.png",
+      "description": "My own blog project, where I talk about news in politics, science, technologies, travel and much more!",
+      "skills": ["JavaScript", "SCSS", "React", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     }
