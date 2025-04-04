@@ -1,63 +1,78 @@
 @import '../../vars.css';
 
-
-.container{
+.container {
     color: var(--color-text);
     margin-top: 75px;
     margin-right: 8%;
     margin-left: 8%;
+    text-align: center;
 }
 
-.title{
-    color: var(--color-text);
+.title {
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 25px;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
-.skills{
-    width: 45%;
+.skills {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 37px;
 }
 
-.skill{
+.skill {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 11px;
     margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.skillImageContainer{
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.skillImageContainer {
     background-color: var(--color-secondary);
-    border-radius: 100%;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 120px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
-.skillImageContainer img{
+.skillImageContainer:hover {
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+.skillImageContainer img {
     width: 75px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.skill p{
+.skill p {
     font-size: 25px;
     font-family: var(--font-roboto);
     font-weight: 500;
 }
+
 
 .history {
     /* width: 45%; */
