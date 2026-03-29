@@ -28,15 +28,15 @@
       "imageSrc": "projects/project.png",
       "description": "A responsive weather application that provides real-time weather data using a weather API.",
       "skills": ["TypeScript","React", "Open Trivia Database API", "JavaScript"],
-      "demo": "https://weather-app-demo.netlify.app",
-      "source": "https://github.com/username/weather-app"
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
     },
     {
       "title": "Blog Landing Page",
       "imageSrc": "projects/project1.png",
       "description": "My own blog project, where I talk about news in politics, science, technologies, travel and much more!",
       "skills": ["JavaScript", "CSS", "HTML"],
-      "demo": "https://zafarblog.netlify.app",
+      "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
@@ -44,7 +44,7 @@
       "imageSrc": "projects/project.png",
       "description": "This project showcases user-friendly design to attract customers and promote the restaurant's offerings.",
       "skills": ["React", "Vite", "CSS Modules", "JavaScript"],
-      "demo": "https://my-portfolio.netlify.app",
-      "source": "https://github.com/username/portfolio"
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
     }
   ]
