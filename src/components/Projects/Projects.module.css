@@ -3,26 +3,47 @@
 .container {
   margin-top: 76px;
   color: var(--color-text);
-  margin-left: 7%;
-  margin-right: 7%;
-  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  padding: 0 20px;
 }
 
 .title {
-  /* text-align: center; */
-  font-size: 35px;
+  font-size: 38px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  background: #f3f3f3;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 30px;
   width: 100%;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0 10px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
 }
