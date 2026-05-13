@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 15px;
-  background: linear-gradient(135deg, #576cbc 0%, #132a53 100%);
+  background: linear-gradient(135deg,  #0f2243 0%, #090d1d 100%);
   box-shadow: 0 8px 20px rgba(4, 21, 45, 0.3);
   padding: 20px 26px;
   max-width: 360px;

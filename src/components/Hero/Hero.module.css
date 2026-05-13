@@ -35,10 +35,9 @@
   }
 
 .description{
-    font-size: 30px;
+    font-size: 27px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
-    text-align: center;
 }
 
 .contactBtn{
