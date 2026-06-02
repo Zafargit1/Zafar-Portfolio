@@ -1,41 +1,45 @@
 import React from "react";
 import styles from "./About.module.css";
-import { getImageUrl } from "../../utils";
 
 export const About = () => {
-    return (
-        <section className={styles.container} id="about">
-            <h2 className={styles.title}>About</h2>
+  return (
+    <section className={styles.container} id="about">
+      <div className={styles.inner}>
+        <div className={styles.left}>
+          <p className={styles.sectionLabel}>About me</p>
+          <h2 className={styles.title}>Building interfaces people enjoy using</h2>
+          <p className={styles.bio}>
+            I'm a self-taught front-end developer based in Uzbekistan, focused on building modern web applications with React. I care deeply about clean code, good UX, and performance.
+          </p>
+          <p className={styles.bio}>
+            Currently looking for my first professional role — internship or junior position — where I can contribute, grow, and work with a team.
+          </p>
+        </div>
 
-            <div className={styles.content}>
-                <img src={getImageUrl("about/hero.webp")} alt="My picture" className={styles.aboutImage}/>
-
-                <ul className={styles.aboutItems}>
-                    <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/cursorIcon.png")} alt="" />
-                        <div className={styles.aboutItemText}>
-                            <h3>Front-end development</h3>
-                            <p>I'm front-end React developer and I build responsive nice designed websites.</p>
-                        </div>
-                    </li>
-
-                    <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/serverIcon.png")} alt="" />
-                        <div className={styles.aboutItemText}>
-                            <h3>Back-end side</h3>
-                            <p>I mainly use in my projects Firebase, and at the same time I'm learning Python to use it in back-end in future projects.</p>
-                        </div>
-                    </li>
-
-                    <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/uiIcon.png")} alt="" />
-                        <div className={styles.aboutItemText}>
-                            <h3>Responsive design</h3>
-                            <p>I have great experince in designing responsive websites.</p>
-                        </div>
-                    </li>
-                </ul>
+        <div className={styles.right}>
+          <div className={styles.card}>
+            <div className={styles.cardIcon}>⚡</div>
+            <div>
+              <div className={styles.cardTitle}>Front-end development</div>
+              <div className={styles.cardText}>Building responsive, accessible UIs with React and modern CSS. I focus on component architecture and clean, maintainable code.</div>
             </div>
-        </section>
-    )
-}
+          </div>
+          <div className={styles.card}>
+            <div className={styles.cardIcon}>🔗</div>
+            <div>
+              <div className={styles.cardTitle}>Back-end & APIs</div>
+              <div className={styles.cardText}>Experience with Firebase for real-time data and authentication. Currently expanding my back-end skills with Node.js.</div>
+            </div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.cardIcon}>📐</div>
+            <div>
+              <div className={styles.cardTitle}>Responsive design</div>
+              <div className={styles.cardText}>Every project I build works beautifully across all screen sizes. Mobile-first is the default, not an afterthought.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};

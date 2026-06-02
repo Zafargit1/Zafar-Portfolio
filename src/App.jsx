@@ -1,14 +1,15 @@
+import React from "react";
 import styles from "./App.module.css";
-import { About } from "./components/About/About";
-import { Contacts } from "./components/Contacts/Contacts";
-import { Experience } from "./components/Experience/Experience";
-import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
+import { Hero } from "./components/Hero/Hero";
+import { About } from "./components/About/About";
+import { Experience } from "./components/Experience/Experience";
 import { Projects } from "./components/Projects/Projects";
+import { Contacts } from "./components/Contacts/Contacts";
 
 function App() {
   return (
-    <div className={styles.App}>
+    <div className={styles.app}>
       <Navbar />
       <Hero />
       <About />
