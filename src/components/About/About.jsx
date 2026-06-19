@@ -9,7 +9,7 @@ export const About = () => {
           <p className={styles.sectionLabel}>About me</p>
           <h2 className={styles.title}>Building interfaces people enjoy using</h2>
           <p className={styles.bio}>
-            I'm a self-taught front-end developer based in Uzbekistan, focused on building modern web applications with React. I care deeply about clean code, good UX, and performance.
+            I'm a self-taught front-end developer currently based in Latvia, focused on building modern web applications with React. I care deeply about clean code, good UX, and performance.
           </p>
           <p className={styles.bio}>
             Currently looking for my first professional role — internship or junior position — where I can contribute, grow, and work with a team.
