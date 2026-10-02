@@ -20,6 +20,14 @@ export const Hero = () => {
           <a href="mailto:zafonline23@gmail.com" className={styles.contactBtn}>
             Get in touch
           </a>
+          <a
+            href="https://drive.google.com/file/d/1cTegpTAWRstv8oQki2OgBdwTSzg0B3kP/view?usp=drive_link"
+            className={styles.cvBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get my CV <span aria-hidden="true">↗</span>
+          </a>
           <a href="#projects" className={styles.scrollBtn}>
             View my work <span className={styles.scrollArrow}>↓</span>
           </a>

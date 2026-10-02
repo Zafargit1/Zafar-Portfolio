@@ -104,6 +104,29 @@
   transform: translateY(-1px);
 }
 
+.cvBtn {
+  text-decoration: none;
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid rgba(240, 237, 230, 0.22);
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 13px 24px;
+  transition: all 0.2s ease;
+  letter-spacing: 0.2px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cvBtn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-1px);
+}
+
 .scrollBtn {
   font-family: var(--font-mono);
   font-size: 13px;
@@ -264,6 +287,29 @@
 
 .contactBtn:hover {
   background: #d45520;
+  transform: translateY(-1px);
+}
+
+.cvBtn {
+  text-decoration: none;
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid rgba(240, 237, 230, 0.22);
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 13px 24px;
+  transition: all 0.2s ease;
+  letter-spacing: 0.2px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cvBtn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
   transform: translateY(-1px);
 }
 
